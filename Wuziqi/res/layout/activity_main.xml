@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+   
+    tools:context="com.cyn.wuziqi.MainActivity" >
+<!-- 自定义View,别忘了加id，否则Activity不会自动调用 -->
+    <com.cyn.wuziqi.WuziqiPanel 
+        android:id="@+id/id_wuziqi"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
